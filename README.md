@@ -1,17 +1,11 @@
 <h1 align="center">Testes Unitários em JavaScript</h1>
 
-![GitHub repo size](https://img.shields.io/github/repo-size/ricardorosa-dev/05-project-meme-generator?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/ricardorosa-dev/05-Project-Meme-Generator?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/ricardorosa-dev/07-JavaScript-Unit-Tests?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/ricardorosa-dev/07-JavaScript-Unit-Tests?style=for-the-badge)
 
-<p>
-<img src="imgs/preview.gif" />
-</p>
+> Projeto para o aprendizado de testes unitários em JavaScript, utilizando a biblioteca Jest
 
-> Projeto para o aprendizado de manipulaçao da DOM, Eventos e Web Storage
-
-> HTML5 | CSS3 | JavaScript
-
-### ✨ [Demo](https://ricardorosa-dev.github.io/projects/05-meme-generator)
+> JavaScript | Jest
 
 ## Author
 
@@ -19,7 +13,7 @@
 
 * Website: http://ricardorosa-dev.github.io/
 * Github: [@ricardorosa-dev](https://github.com/ricardorosa-dev)
-* LinkedIn: [@https://ricardorosa-dev.github.io/projects/03-toto-list/index.html](https://ricardorosa-dev.github.io/projects/03-toto-list/index.html)
+* LinkedIn: [@https://www.linkedin.com/in/ricardorosa-dev/](https://www.linkedin.com/in/ricardorosa-dev/)
 
 ---
 ## Funções
@@ -40,7 +34,7 @@ const average = (array) => {
   return Math.round(m / array.length);
 };
 ```
-### Testes
+### > Testes
 ```JavaScript
 describe('#average', () => {
   it("tests function average's behaviour as specified", () => {
@@ -73,7 +67,7 @@ const createStudent = (nome) => {
   return estudante;
 };
 ```
-### Testes
+### > Testes
 ```JavaScript
 describe('#createStudent', () => {
   it('returns the object as specified', () => {

@@ -1,0 +1,30 @@
+{
+  "name": "sd-0x-block-project-js-unit-tests",
+  "version": "1.0.0",
+  "description": "Project for Block 8",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/betrybe/sd-0x-block8-project-js-unit-tests.git"
+  },
+  "keywords": [
+    "javascript",
+    "tests",
+    "assert",
+    "jest"
+  ],
+  "author": "Jean Vasconcelos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/betrybe/sd-0x-block8-project-js-unit-tests/issues"
+  },
+  "homepage": "https://github.com/betrybe/sd-0x-block8-project-js-unit-tests#readme",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "acorn": ">=5.7.4",
+    "minimist": ">=1.2.2"
+  }
+}
